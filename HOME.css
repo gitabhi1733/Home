@@ -1,0 +1,65 @@
+ 
+        
+        .header{
+            color:white;
+            font-size: 18px;
+            width: 1000px;
+            height: 30px;
+            display: flex;
+            justify-content: flex-end;
+            
+            
+            
+            
+            
+            
+            
+            margin: -6px;
+            margin-top: -8px;
+            position: fixed;
+            z-index: 1;
+            
+            
+        }
+        @media screen and (max-width:768px)
+        {
+            .header{
+                color: white;
+                font-size: 10px;
+                 display: flex;
+            justify-content: flex-start;
+            width: 768px;
+
+            }
+        }
+        #home{
+            position: relative;
+            margin: 5px;
+        
+            background: #121FCF;
+background: linear-gradient(to right, rgb(181, 36, 36) 1%, rgb(114, 56, 196) 110% ,yellow 10%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+z-index: 2;
+
+        }
+        body{
+            background-image:url("hamish-aYEUXnVG8tg-unsplash.jpg");
+            background-size: 1024px 300px;
+
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 10px;
+        
+    
+            
+        }
+        .img{
+            background: linear-gradient(to right, rgb(171, 57, 57) 10%, rgb(9, 59, 34) 90% ,yellow 100%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+        };
+ 
+            
+        
